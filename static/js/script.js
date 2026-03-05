@@ -139,6 +139,11 @@ Muestra cuántos pacientes quedan y quién es el siguiente en la lista.
 
 function doctor() {
     let pacientes = ["Ana", "Betto"];
+    pacientes.push("Carlos", "Diana");
+    pacientes.shift();
+    pacientes.unshift("Sonia");
+
+    alert(`Quedan ${pacientes.length} y el siguente es ${pacientes[1]}`)
 }
 
 /* Dada la siguiente estructura:
