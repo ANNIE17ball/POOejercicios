@@ -1,0 +1,64 @@
+:root {
+    --dark-green: #0A3323;
+    --moss-green: #839958;
+    --beige: #F7F4D5;
+    --rosy-brown: #D3968C;
+    --midnight-green: #105666;
+}
+
+/* Background colors */
+.bg-dark-green { background-color: var(--dark-green); }
+.bg-moss-green { background-color: var(--moss-green); }
+.bg-beige { background-color: var(--beige); }
+.bg-rosy-brown { background-color: var(--rosy-brown); }
+.bg-midnight-green { background-color: var(--midnight-green); }
+
+/* Text colors */
+.text-dark-green { color: var(--dark-green); }
+.text-moss-green { color: var(--moss-green); }
+.text-beige { color: var(--beige); }
+.text-rosy-brown { color: var(--rosy-brown); }
+.text-midnight-green { color: var(--midnight-green); }
+
+/* Border colors */
+.border-dark-green { border-color: var(--dark-green); }
+.border-moss-green { border-color: var(--moss-green); }
+.border-beige { border-color: var(--beige); }
+.border-rosy-brown { border-color: var(--rosy-brown); }
+.border-midnight-green { border-color: var(--midnight-green); }
+
+/* Border with default width (1px) */
+.border-dark-green,
+.border-moss-green,
+.border-beige,
+.border-rosy-brown,
+.border-midnight-green {
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Optional: Outline colors */
+.outline-dark-green { outline-color: var(--dark-green); }
+.outline-moss-green { outline-color: var(--moss-green); }
+.outline-beige { outline-color: var(--beige); }
+.outline-rosy-brown { outline-color: var(--rosy-brown); }
+.outline-midnight-green { outline-color: var(--midnight-green); }
+
+/* Optional: Hover effects */
+.hover-bg-dark-green:hover { background-color: var(--dark-green); }
+.hover-bg-moss-green:hover { background-color: var(--moss-green); }
+.hover-bg-beige:hover { background-color: var(--beige); }
+.hover-bg-rosy-brown:hover { background-color: var(--rosy-brown); }
+.hover-bg-midnight-green:hover { background-color: var(--midnight-green); }
+
+.hover-text-dark-green:hover { color: var(--dark-green); }
+.hover-text-moss-green:hover { color: var(--moss-green); }
+.hover-text-beige:hover { color: var(--beige); }
+.hover-text-rosy-brown:hover { color: var(--rosy-brown); }
+.hover-text-midnight-green:hover { color: var(--midnight-green); }
+
+.hover-border-dark-green:hover { border-color: var(--dark-green); }
+.hover-border-moss-green:hover { border-color: var(--moss-green); }
+.hover-border-beige:hover { border-color: var(--beige); }
+.hover-border-rosy-brown:hover { border-color: var(--rosy-brown); }
+.hover-border-midnight-green:hover { border-color: var(--midnight-green); }
