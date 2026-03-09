@@ -41,5 +41,29 @@ function stock() {
         alert("Bodega llena, eliminando último ingreso");
     } else {
         alert("Espacio disponible");
+        let ingreso = prompt("Qué vas a guardar?");
+        bodega.push(ingreso);
     }
+}
+
+// ejercicio cinco
+    let colaEspera = ["error_404", "Juan", "Sofía"];
+function error(){
+    if (colaEspera[0] == "error_404"){
+        colaEspera.shift();
+        alert(colaEspera.join(" "));
+    } else if (colaEspera[0] != "error_404"){
+        alert("La lista de espera está correcta");
+    }
+}
+
+// ejercicio seis
+function vip(){
+    const contraAdmin = 123456;
+    let foro = ["User1", "User2"];
+
+    let usuario = prompt("Por favor ingresar usuario");
+    let contra = parseInt(prompt("Por favor ingresar contraseña"));
+
+    if 
 }
