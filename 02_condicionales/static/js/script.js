@@ -65,5 +65,16 @@ function vip(){
     let usuario = prompt("Por favor ingresar usuario");
     let contra = parseInt(prompt("Por favor ingresar contraseña"));
 
-    if 
+    if (contra == contraAdmin){
+        foro.unshift(usuario);
+    } else {
+        foro.push(usuario);
+    }
+
+    alert(foro.join(" "))
+}
+
+// ejercicio siete
+function cal(){
+    let nota = parseFloat(prompt)
 }
