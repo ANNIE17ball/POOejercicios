@@ -1,64 +1,64 @@
 :root {
-    --dark-green: #0A3323;
-    --moss-green: #839958;
-    --beige: #F7F4D5;
-    --rosy-brown: #D3968C;
-    --midnight-green: #105666;
+    --maroon: #B83556;
+    --parrot-pink: #DC97A5;
+    --ucla-blue: #55768C;
+    --lumber: #FADED2;
+    --milk-chocolate: #845747;
 }
 
 /* Background colors */
-.bg-dark-green { background-color: var(--dark-green); }
-.bg-moss-green { background-color: var(--moss-green); }
-.bg-beige { background-color: var(--beige); }
-.bg-rosy-brown { background-color: var(--rosy-brown); }
-.bg-midnight-green { background-color: var(--midnight-green); }
+.bg-maroon { background-color: var(--maroon); }
+.bg-parrot-pink { background-color: var(--parrot-pink); }
+.bg-ucla-blue { background-color: var(--ucla-blue); }
+.bg-lumber { background-color: var(--lumber); }
+.bg-milk-chocolate { background-color: var(--milk-chocolate); }
 
 /* Text colors */
-.text-dark-green { color: var(--dark-green); }
-.text-moss-green { color: var(--moss-green); }
-.text-beige { color: var(--beige); }
-.text-rosy-brown { color: var(--rosy-brown); }
-.text-midnight-green { color: var(--midnight-green); }
+.text-maroon { color: var(--maroon); }
+.text-parrot-pink { color: var(--parrot-pink); }
+.text-ucla-blue { color: var(--ucla-blue); }
+.text-lumber { color: var(--lumber); }
+.text-milk-chocolate { color: var(--milk-chocolate); }
 
 /* Border colors */
-.border-dark-green { border-color: var(--dark-green); }
-.border-moss-green { border-color: var(--moss-green); }
-.border-beige { border-color: var(--beige); }
-.border-rosy-brown { border-color: var(--rosy-brown); }
-.border-midnight-green { border-color: var(--midnight-green); }
+.border-maroon { border-color: var(--maroon); }
+.border-parrot-pink { border-color: var(--parrot-pink); }
+.border-ucla-blue { border-color: var(--ucla-blue); }
+.border-lumber { border-color: var(--lumber); }
+.border-milk-chocolate { border-color: var(--milk-chocolate); }
 
 /* Border with default width (1px) */
-.border-dark-green,
-.border-moss-green,
-.border-beige,
-.border-rosy-brown,
-.border-midnight-green {
+.border-maroon,
+.border-parrot-pink,
+.border-ucla-blue,
+.border-lumber,
+.border-milk-chocolate {
     border-style: solid;
     border-width: 1px;
 }
 
 /* Optional: Outline colors */
-.outline-dark-green { outline-color: var(--dark-green); }
-.outline-moss-green { outline-color: var(--moss-green); }
-.outline-beige { outline-color: var(--beige); }
-.outline-rosy-brown { outline-color: var(--rosy-brown); }
-.outline-midnight-green { outline-color: var(--midnight-green); }
+.outline-maroon { outline-color: var(--maroon); }
+.outline-parrot-pink { outline-color: var(--parrot-pink); }
+.outline-ucla-blue { outline-color: var(--ucla-blue); }
+.outline-lumber { outline-color: var(--lumber); }
+.outline-milk-chocolate { outline-color: var(--milk-chocolate); }
 
 /* Optional: Hover effects */
-.hover-bg-dark-green:hover { background-color: var(--dark-green); }
-.hover-bg-moss-green:hover { background-color: var(--moss-green); }
-.hover-bg-beige:hover { background-color: var(--beige); }
-.hover-bg-rosy-brown:hover { background-color: var(--rosy-brown); }
-.hover-bg-midnight-green:hover { background-color: var(--midnight-green); }
+.hover-bg-maroon:hover { background-color: var(--maroon); }
+.hover-bg-parrot-pink:hover { background-color: var(--parrot-pink); }
+.hover-bg-ucla-blue:hover { background-color: var(--ucla-blue); }
+.hover-bg-lumber:hover { background-color: var(--lumber); }
+.hover-bg-milk-chocolate:hover { background-color: var(--milk-chocolate); }
 
-.hover-text-dark-green:hover { color: var(--dark-green); }
-.hover-text-moss-green:hover { color: var(--moss-green); }
-.hover-text-beige:hover { color: var(--beige); }
-.hover-text-rosy-brown:hover { color: var(--rosy-brown); }
-.hover-text-midnight-green:hover { color: var(--midnight-green); }
+.hover-text-maroon:hover { color: var(--maroon); }
+.hover-text-parrot-pink:hover { color: var(--parrot-pink); }
+.hover-text-ucla-blue:hover { color: var(--ucla-blue); }
+.hover-text-lumber:hover { color: var(--lumber); }
+.hover-text-milk-chocolate:hover { color: var(--milk-chocolate); }
 
-.hover-border-dark-green:hover { border-color: var(--dark-green); }
-.hover-border-moss-green:hover { border-color: var(--moss-green); }
-.hover-border-beige:hover { border-color: var(--beige); }
-.hover-border-rosy-brown:hover { border-color: var(--rosy-brown); }
-.hover-border-midnight-green:hover { border-color: var(--midnight-green); }
+.hover-border-maroon:hover { border-color: var(--maroon); }
+.hover-border-parrot-pink:hover { border-color: var(--parrot-pink); }
+.hover-border-ucla-blue:hover { border-color: var(--ucla-blue); }
+.hover-border-lumber:hover { border-color: var(--lumber); }
+.hover-border-milk-chocolate:hover { border-color: var(--milk-chocolate); }

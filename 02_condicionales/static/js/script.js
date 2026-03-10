@@ -47,34 +47,85 @@ function stock() {
 }
 
 // ejercicio cinco
-    let colaEspera = ["error_404", "Juan", "Sofía"];
-function error(){
-    if (colaEspera[0] == "error_404"){
+let colaEspera = ["error_404", "Juan", "Sofía"];
+function error() {
+    if (colaEspera[0] == "error_404") {
         colaEspera.shift();
         alert(colaEspera.join(" "));
-    } else if (colaEspera[0] != "error_404"){
+    } else if (colaEspera[0] != "error_404") {
         alert("La lista de espera está correcta");
     }
 }
 
 // ejercicio seis
-function vip(){
+function vip() {
     const contraAdmin = 123456;
     let foro = ["User1", "User2"];
 
     let usuario = prompt("Por favor ingresar usuario");
-    let contra = parseInt(prompt("Por favor ingresar contraseña"));
 
-    if (contra == contraAdmin){
-        foro.unshift(usuario);
+    if (usuario != "") {
+        let contra = parseInt(prompt("Por favor ingresar contraseña"));
+        if (contra == contraAdmin) {
+            foro.unshift(usuario);
+        } else {
+            foro.push(usuario);
+        }
+
+        alert(foro.join(" "))
     } else {
-        foro.push(usuario);
+        alert("Error");
     }
 
-    alert(foro.join(" "))
 }
 
 // ejercicio siete
-function cal(){
-    let nota = parseFloat(prompt)
+function cal() {
+    let nota = parseFloat(prompt("Por favor ingresa tu nota"));
+
+    if (nota <= 7.0 && nota >= 6.0) {
+        alert("Excelente, eximido");
+    } else if (nota >= 4.0 && nota <= 5.9) {
+        alert("Aprobado, vas a examen");
+    } else if (nota <= 4.0 && nota >= 1.0) {
+        alert("Reprobado");
+    } else {
+        alert("No valido...")
+    }
+}
+
+// ejercicio ocho
+function invitacion() {
+    let invitados = ["Ana", "Luis", "Camila", "Diego"];
+    let you = prompt("Ingresa el nombre para pasar");
+
+    if (invitados.includes(you) == 1) {
+        alert(`¡Bienvenido/a ${you}! Pasa a la fiesta`);
+    } else {
+        alert("Lo siento, no estás en la lista de invitados");
+    }
+}
+
+// ejercicio nueve
+function matriz() {
+    let estanteria = [["Manzanas", "Peras"], ["Leche", "Yogur"]];
+}
+
+// ejercicio diez
+function bit() {
+    let bitacora = [];
+    let nombreVisita = prompt("Por favor ingresa tu nombre");
+    let esVip = parseInt(prompt("Por favor ingresa tu estatus"));
+
+    if (nombreVisita != "") {
+        if (esVip == 1) {
+            bitacora.unshift(nombreVisita);
+        } else if (esVip == 0) {
+            bitacora.push(nombreVisita);
+        }
+    } else {
+        alert("Lo sentimos ha ocurrido un error...")
+    }
+
+    alert(bitacora.length);
 }
