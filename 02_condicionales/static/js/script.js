@@ -10,7 +10,7 @@ function edad() {
     }
 };
 
-function name() {
+function nombre() {
     let nombre = prompt("Cual es tu nombre??");
     let usuarios = [];
 
@@ -38,8 +38,15 @@ function lista() {
 let bodega = ["caja1", "caja2", "caja3", "caja4", "caja5", "caja6"];
 function stock() {
     if (bodega.length > 5) {
-        bodega.pop();
-        alert("Bodega llena, eliminando último ingreso");
+        alert("Bodega llena");
+        let borrar = prompt(`Cuantos elementos vas a borrar (max : ${bodega.length})`);
+        if (borrar <= bodega.length) {
+            for (let i = 1; i <= borrar; i++) {
+                bodega.pop();
+            }
+        } else {
+            alert("Limite excedido");
+        }
     } else {
         alert("Espacio disponible");
         let ingreso = prompt("Qué vas a guardar?");
@@ -60,14 +67,14 @@ function error() {
 
 // ejercicio seis
 function vip() {
-    const contraAdmin = 123456;
     let foro = ["User1", "User2"];
 
     let usuario = prompt("Por favor ingresar usuario");
 
     if (usuario != "") {
-        let contra = parseInt(prompt("Por favor ingresar contraseña"));
-        if (contra == contraAdmin) {
+        let rol = prompt("Por favor ingresar rol");
+        rol.toLowerCase;
+        if (rol == "admin") {
             foro.unshift(usuario);
         } else {
             foro.push(usuario);
@@ -77,7 +84,6 @@ function vip() {
     } else {
         alert("Error");
     }
-
 }
 
 // ejercicio siete
@@ -110,6 +116,18 @@ function invitacion() {
 // ejercicio nueve
 function matriz() {
     let estanteria = [["Manzanas", "Peras"], ["Leche", "Yogur"]];
+    let seccion = parseInt(prompt("Ingresa una seccion por favor"));
+
+    if (seccion == 0 || seccion == 1) {
+        let producto = prompt("Ingrese producto solicitado");
+        if (estanteria[seccion].includes(producto)) {
+            alert("Producto encontrado en el estante")
+        } else {
+            alert("Lo sentimos, ahora mismo no se encuentra ese producto en nuestra sección");
+        }
+    } else {
+        alert("Lo sentimos, ahora mismo no se encuentra esa sección");
+    }
 }
 
 // ejercicio diez
