@@ -11,11 +11,12 @@ function edad() {
 };
 
 function name() {
-    let usuarios = [];
     let nombre = prompt("Cual es tu nombre??");
+    let usuarios = [];
 
-    if (nombre != null) {
+    if (nombre !== "") {
         usuarios.push(nombre);
+        alert(`${usuarios}`)
     } else {
         alert("Error: El nombre no puede estar en blanco");
     }
