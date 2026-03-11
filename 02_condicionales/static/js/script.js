@@ -131,15 +131,16 @@ function matriz() {
 }
 
 // ejercicio diez
+let bitacora = [];
 function bit() {
-    let bitacora = [];
     let nombreVisita = prompt("Por favor ingresa tu nombre");
-    let esVip = parseInt(prompt("Por favor ingresa tu estatus"));
+    let esVip = prompt("Eres VIP (solo si o no)");
+    esVip.toLowerCase;
 
     if (nombreVisita != "") {
-        if (esVip == 1) {
+        if (esVip == "si") {
             bitacora.unshift(nombreVisita);
-        } else if (esVip == 0) {
+        } else if (esVip == "no") {
             bitacora.push(nombreVisita);
         }
     } else {
