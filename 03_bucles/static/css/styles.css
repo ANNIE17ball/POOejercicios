@@ -1,3 +1,15 @@
+.font-coiny {
+    font-family: "Coiny", system-ui, sans-serif;
+}
+
+.font-schoolbell {
+    font-family: "Schoolbell", cursive, sans-serif;
+}
+
+.rounded{
+    border-radius: 12px;
+}
+
 :root {
     --carnival-crimson: #B22026;
     --aged-parchment: #E9DBBD;
