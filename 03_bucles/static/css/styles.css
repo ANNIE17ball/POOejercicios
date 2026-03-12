@@ -1,0 +1,64 @@
+:root {
+    --carnival-crimson: #B22026;
+    --aged-parchment: #E9DBBD;
+    --dusty-circus-blue: #748EA1;
+    --natural-pine: #DBBC97;
+    --vintage-ink: #2F2926;
+}
+
+/* Background colors */
+.bg-carnival-crimson { background-color: var(--carnival-crimson); }
+.bg-aged-parchment { background-color: var(--aged-parchment); }
+.bg-dusty-circus-blue { background-color: var(--dusty-circus-blue); }
+.bg-natural-pine { background-color: var(--natural-pine); }
+.bg-vintage-ink { background-color: var(--vintage-ink); }
+
+/* Text colors */
+.text-carnival-crimson { color: var(--carnival-crimson); }
+.text-aged-parchment { color: var(--aged-parchment); }
+.text-dusty-circus-blue { color: var(--dusty-circus-blue); }
+.text-natural-pine { color: var(--natural-pine); }
+.text-vintage-ink { color: var(--vintage-ink); }
+
+/* Border colors */
+.border-carnival-crimson { border-color: var(--carnival-crimson); }
+.border-aged-parchment { border-color: var(--aged-parchment); }
+.border-dusty-circus-blue { border-color: var(--dusty-circus-blue); }
+.border-natural-pine { border-color: var(--natural-pine); }
+.border-vintage-ink { border-color: var(--vintage-ink); }
+
+/* Border with default width (1px) */
+.border-carnival-crimson,
+.border-aged-parchment,
+.border-dusty-circus-blue,
+.border-natural-pine,
+.border-vintage-ink {
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Optional: Outline colors */
+.outline-carnival-crimson { outline-color: var(--carnival-crimson); }
+.outline-aged-parchment { outline-color: var(--aged-parchment); }
+.outline-dusty-circus-blue { outline-color: var(--dusty-circus-blue); }
+.outline-natural-pine { outline-color: var(--natural-pine); }
+.outline-vintage-ink { outline-color: var(--vintage-ink); }
+
+/* Optional: Hover effects */
+.hover-bg-carnival-crimson:hover { background-color: var(--carnival-crimson); }
+.hover-bg-aged-parchment:hover { background-color: var(--aged-parchment); }
+.hover-bg-dusty-circus-blue:hover { background-color: var(--dusty-circus-blue); }
+.hover-bg-natural-pine:hover { background-color: var(--natural-pine); }
+.hover-bg-vintage-ink:hover { background-color: var(--vintage-ink); }
+
+.hover-text-carnival-crimson:hover { color: var(--carnival-crimson); }
+.hover-text-aged-parchment:hover { color: var(--aged-parchment); }
+.hover-text-dusty-circus-blue:hover { color: var(--dusty-circus-blue); }
+.hover-text-natural-pine:hover { color: var(--natural-pine); }
+.hover-text-vintage-ink:hover { color: var(--vintage-ink); }
+
+.hover-border-carnival-crimson:hover { border-color: var(--carnival-crimson); }
+.hover-border-aged-parchment:hover { border-color: var(--aged-parchment); }
+.hover-border-dusty-circus-blue:hover { border-color: var(--dusty-circus-blue); }
+.hover-border-natural-pine:hover { border-color: var(--natural-pine); }
+.hover-border-vintage-ink:hover { border-color: var(--vintage-ink); }
