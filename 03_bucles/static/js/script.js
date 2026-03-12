@@ -81,10 +81,9 @@ function nombres() {
 
     parrafo.textContent = ""; //limpiar contenedor
     for (let i = 0; i < asistentes.length; i++) {
-        asistentes[i].toLowerCase;
         nuevaLinea.push(asistentes[i]);
 
-        if (asistentes[i].length % 2 == 0) {
+        if (i % 2 === 0) {
             nuevaLinea.push("[VIP]")
         }
     }
