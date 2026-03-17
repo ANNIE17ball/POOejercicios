@@ -118,7 +118,7 @@ function parrafos() {
     parrafo.textContent = ""; //limpiar contenedor
     for (let i = 0; i < temperaturas.length; i++) {
         if (temperaturas[i] > 30) {
-            parrafo.innerHTML += "¡ALERTA! Temperatura crítica de " + temperaturas[i] + " grados.<br>";
+            parrafo.innerHTML += `<p class="text-danger">¡ALERTA! Temperatura crítica de  + ${temperaturas[i]} +  grados.</p><br>`;
         }
     }
     container.classList.remove(`d-none`);
