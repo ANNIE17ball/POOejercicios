@@ -130,3 +130,34 @@ function filtrarPrecios() {
 }
 
 //ejercicio siete
+function calcularDescuentos(bruto) {
+    return bruto * 0.8;  // Descuenta el 20% (AFP y Salud)
+}
+
+function procesarSueldo() {
+    const container = document.getElementById(`resultado7`);
+    let pantalla = document.getElementById('pantalla7');
+    let sueldoBruto = document.getElementById('val7').value;
+    sueldoBruto = Number(sueldoBruto);
+    
+    let sueldoLiquido = calcularDescuentos(sueldoBruto);
+
+    pantalla.textContent = "Tu sueldo a pago es: $" + sueldoLiquido;
+    container.classList.remove(`d-none`);
+    document.getElementById('val7').value = '';
+}
+
+// ejercicio ocho
+let carrito = [];
+function actualizarPantalla() {
+    const container = document.getElementById(`resultado8`);
+    let pantalla = document.getElementById('pantalla8');
+    let sueldoBruto = document.getElementById('val8').value;
+    sueldoBruto = Number(sueldoBruto);
+    
+    let sueldoLiquido = calcularDescuentos(sueldoBruto);
+
+    pantalla.textContent = "Tu sueldo a pago es: $" + sueldoLiquido;
+    container.classList.remove(`d-none`);
+    document.getElementById('val7').value = '';
+}
