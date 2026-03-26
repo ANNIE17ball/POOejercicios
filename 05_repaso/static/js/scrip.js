@@ -1,7 +1,10 @@
+// ejercicio uno
+let numeros = [];
 function verificarNumero() {
     let contenedor = document.getElementById(`resultado1`);
     let resultado = document.getElementById(`pantalla1`);
     let input = document.getElementById(`val1`);
+    let question = document.getElementById(`yes`);
 
     // transformar a numero el input
     let num = parseInt(input.value);
@@ -13,7 +16,12 @@ function verificarNumero() {
             resultado.textContent = `Por favor ingresar un elemento valido`;
         } else {
             resultado.textContent = `El número ${num} ha sido ingresado correctamente ٩(^ᗜ^ )و ´-`;
+            numeros.push(num);
         }
+    }
+
+    if (question.value.toLowerCase() == "si"){
+        resultado.textContent = `Los números ingresados son ${numeros.join(` ﹒`)}`;
     }
 
     //mostrar container
